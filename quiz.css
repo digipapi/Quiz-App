@@ -1,0 +1,37 @@
+.option-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #5A6351;
+    background-color: white;
+}
+.option-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem 0 rgb(49, 99, 0);
+}
+.option-prefix {
+    background-color: #5A6351;
+    color: white;
+    padding: 1.5rem 2.5rem;
+}
+.option-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+.correct {
+    background-color: green;
+    color: white;
+}
+.incorrect {
+    background-color: red;
+    color: white;
+}
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
